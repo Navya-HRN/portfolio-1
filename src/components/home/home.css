@@ -1,0 +1,91 @@
+.home{
+    display: flex;
+    height: 100vh;
+    background-color: rgba(198, 194, 187, 0.901);
+}
+.first{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.second{
+    flex: 1;
+}
+.first-items{
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.desc{
+    margin-top: 25px;
+}
+.intro{
+    font-size: 30px;
+    font-weight: 300;
+}
+.name{
+    font-size: 60px; 
+    color: rgb(41, 41, 78);
+}
+.titles{
+    height: 50px;
+    overflow: hidden;
+}
+.title-wrap{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+@keyframes move {
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    75%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(-200px);
+    }
+}
+.title-item{
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;    
+    color: rgb(56, 44, 67);
+    display: flex;
+    align-items: center;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+a{
+    color: aquamarine;
+    text-decoration: none;
+    cursor: auto;
+}
+a:hover{
+    color: rgb(12, 15, 19);
+    
+}
+.cv1,.know{
+    
+    font-size: large;
+    border: 1px solid rgb(206, 225, 237);
+   
+    padding: 0.75rem 1.2rem;
+    border-radius: 15px;
+    background-color: rgb(108, 139, 139);
+}

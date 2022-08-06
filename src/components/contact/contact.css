@@ -1,0 +1,43 @@
+.ct{
+    display:flex;
+    height: 100vh;
+    background-color: rgba(198, 194, 187, 0.901);
+}
+.ct-title{
+    padding: 35px 110px;
+    font-size: x-large;
+}
+.ct-left{
+    flex: 1;
+}
+.ct-right{
+    flex: 3;
+}
+form{
+    margin-top: 75px;
+}
+input{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color:rgb(108, 139, 139);
+    margin: 10px 0px;
+}
+::placeholder{
+    color: aquamarine;
+}
+textarea{
+    display: block;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgb(108, 139, 139);
+    margin: 10px 0px;
+}
+button{
+    color: aquamarine;
+    background-color: rgb(108, 139, 139);
+    padding:15px;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.skills{
+    display: flex;
+    height: 100vh;
+    background-color: rgba(198, 194, 187, 0.901);
+}
+.content{
+    flex: 1;
+    font-size: larger;
+   
+}
+.c{
+    margin-bottom: 5px;
+}
+.cert{
+    
+    font-size: medium;
+    border: 2.5px solid rgb(206, 225, 237);
+   
+    
+    padding: 0.25rem 1.2rem;
+    border-radius: 15px;
+    background-color: rgb(108, 139, 139);
+}
+#l{
+    margin-bottom: 25px;
+}
+.con{
+    flex: 1;
+    margin: 20% 5% 20% 10%;
+    font-size:x-large;
+}
+.contact{
+    font-size: x-large;
+    border: 2.5px solid rgb(206, 225, 237);
+    margin-left: 50px;
+    
+    padding: 0.25rem 1.2rem;
+    border-radius: 15px;
+    background-color: rgb(108, 139, 139);
+}
+.p{
+    margin-bottom: 15px;
+}
