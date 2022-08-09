@@ -1,0 +1,15 @@
+
+
+.navitems{
+    bottom: 0%;
+    left: 40%;
+    background: rgb(108, 139, 139);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    display: flex;
+    gap: 50px;
+    position: fixed;
+    border-radius: 20px;
+    
+}

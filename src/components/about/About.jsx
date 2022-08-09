@@ -3,7 +3,7 @@ import pic from "../../imgs/img.jpg"
 
 const About = () => {
     return ( 
-        <div className="about" id="about">
+        <div classname="container" className="about" id="about">
             
             <div className="left">
                 <img src={pic} alt="picture" className="pic"/>

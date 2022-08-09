@@ -4,7 +4,7 @@ import cv from "../../imgs/Resume.pdf"
 
 const Home = () => {
     return ( 
-        <div className="home" id="home">
+        <div classname="container" className="home" id="home">
             <div className="first">
                 <div className="first-items">
                     <h2 className="intro">Hello,This is</h2>

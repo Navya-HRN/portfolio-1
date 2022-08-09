@@ -7,7 +7,7 @@ import eng from "../../imgs/English.pdf"
 
 const Skills = () => {
     return ( 
-        <div className="skills" id="skills">
+        <div classname="container" className="skills" id="skills">
             <div className="content">
 
             
